@@ -1,0 +1,10 @@
+username: cyan
+name: default
+description: CyanPrint's default shipped processor
+project: https://github.com/AtomiCloud/ketone.default-processor
+source: https://github.com/AtomiCloud/ketone.default-processor
+email: ernest@atomi.cloud
+tags:
+  - default
+  - cyanprint
+readme: README.MD
