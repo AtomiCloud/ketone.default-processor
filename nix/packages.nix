@@ -5,6 +5,7 @@ let
       with atomi;
       {
         inherit
+          atomiutils
           sg
           pls;
       }
@@ -17,13 +18,7 @@ let
           hadolint
 
           bun
-          coreutils
-          findutils
-          sd
-          bash
           git
-          yq-go
-          jq
 
           # lint
           treefmt

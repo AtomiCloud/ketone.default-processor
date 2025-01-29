@@ -2,10 +2,7 @@
 with packages;
 {
   system = [
-    coreutils
-    sd
-    bash
-    findutils
+    atomiutils
   ];
 
   dev = [
@@ -32,10 +29,5 @@ with packages;
     sg
   ];
 
-  ci = [
-  ];
-
-  releaser = [
-  ];
 
 }
