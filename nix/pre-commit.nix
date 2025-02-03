@@ -32,16 +32,6 @@ pre-commit-lib.run {
       pass_filenames = false;
     };
 
-    a-enforce-gitlint = {
-      enable = true;
-      name = "Enforce gitlint";
-      description = "Enforce atomi_releaser conforms to gitlint";
-      entry = "${packages.sg}/bin/sg gitlint";
-      files = "(atomi_release\\.yaml|\\.gitlint)";
-      language = "system";
-      pass_filenames = false;
-    };
-
     a-shellcheck = {
       enable = true;
       name = "Shell Check";
